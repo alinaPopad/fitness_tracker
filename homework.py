@@ -117,7 +117,8 @@ class Swimming(Training):
                 * self.weight * self.duration)
 
 
-def read_package(workout_type: str, data: list[int]) -> Training:
+def read_package(workout_type: str,
+                 data: list[int, int, int, int]) -> Training:
     """Прочитать данные полученные от датчиков."""
     types_training = {'SWM': Swimming,
                       'RUN': Running,
