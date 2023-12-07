@@ -36,6 +36,9 @@
 - pytest==7.1.3
 - tomli==2.0.1
 
+## Автор
+Попадченко Алина
+
 ## Пример использования 
 
 ```python
@@ -49,10 +52,3 @@ if __name__ == '__main__':
     for workout_type, data in packages:
         training = read_package(workout_type, data)
         main(training)
-
-
-
-### Автор
-Попадченко Алина
-
-
