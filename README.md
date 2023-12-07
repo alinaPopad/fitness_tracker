@@ -50,6 +50,8 @@ if __name__ == '__main__':
         training = read_package(workout_type, data)
         main(training)
 
+
+
 ### Автор
 Попадченко Алина
 
